@@ -18,17 +18,9 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  def batch_badge_creator(array)
-  new_array = []
-  array.each do |name|
-    new_array.push("Hello, my name is #{name}.")
-  end
-  new_array
-end
-  results = []
-  results.push(new_array)
-  puts results
-end
+  batch_badge_creator(attendees).each do |person|
+    
+ 
 
 
   # The method `printer` should output first the results of the batch_badge_creator method and then of the assign_rooms method to the screen - this way you can output
